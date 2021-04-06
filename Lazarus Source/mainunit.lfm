@@ -1,0 +1,26 @@
+object MainForm: TMainForm
+  Left = 498
+  Height = 607
+  Top = 155
+  Width = 853
+  AllowDropFiles = True
+  Caption = 'BBC BASIC File Viewer V1.00'
+  ClientHeight = 607
+  ClientWidth = 853
+  Color = 15527148
+  OnDropFiles = FormDropFiles
+  LCLVersion = '2.0.0.4'
+  object Memo1: TMemo
+    Left = 0
+    Height = 607
+    Top = 0
+    Width = 853
+    Align = alClient
+    Color = 15527148
+    Font.Name = 'Courier New'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+end
