@@ -4,23 +4,45 @@ object MainForm: TMainForm
   Top = 155
   Width = 853
   AllowDropFiles = True
-  Caption = 'BBC BASIC File Viewer V1.00'
+  Caption = 'BBC BASIC File Viewer V1.02'
   ClientHeight = 607
   ClientWidth = 853
   Color = 15527148
   OnDropFiles = FormDropFiles
-  LCLVersion = '2.0.0.4'
-  object Memo1: TMemo
+  LCLVersion = '2.0.12.0'
+  object StatusBar1: TStatusBar
     Left = 0
-    Height = 607
+    Height = 18
+    Top = 589
+    Width = 853
+    Panels = <    
+      item
+        Width = 100
+      end    
+      item
+        Width = 500
+      end>
+    SimplePanel = False
+  end
+  object Memo1: TIpHtmlPanel
+    Left = 0
+    Height = 589
     Top = 0
     Width = 853
     Align = alClient
-    Color = 15527148
-    Font.Name = 'Courier New'
-    ParentFont = False
-    ReadOnly = True
-    ScrollBars = ssAutoBoth
-    TabOrder = 0
+    FixedTypeface = 'Courier'
+    DefaultTypeFace = 'Courier New'
+    DefaultFontSize = 12
+    FlagErrors = False
+    PrintSettings.MarginLeft = 0.5
+    PrintSettings.MarginTop = 0.5
+    PrintSettings.MarginRight = 0.5
+    PrintSettings.MarginBottom = 0.5
+    PrintSettings.Preview.AntiAliasingMode = amOn
+    PrintSettings.Preview.Left = 360
+    PrintSettings.Preview.Top = 225
+    PrintSettings.Preview.Width = 1080
+    PrintSettings.Preview.Height = 675
+    TabOrder = 1
   end
 end
