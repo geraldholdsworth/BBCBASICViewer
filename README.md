@@ -1,5 +1,5 @@
 # BBC BASIC file viewer
-Application to view BBC BASIC files. No highlighting.<br>
+Application to view BBC BASIC files.<br>
 <br>
 This was written to be included in Disc Image Manager, therefore it will not get developed much beyond version 1.00 (also, mainly, due to the large numbers of similar applications available).<br>
 <br>
