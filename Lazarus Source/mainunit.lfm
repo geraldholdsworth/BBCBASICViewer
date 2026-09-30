@@ -4,12 +4,13 @@ object MainForm: TMainForm
   Top = 155
   Width = 853
   AllowDropFiles = True
-  Caption = 'BBC BASIC File Viewer V1.02'
+  Caption = 'BBC BASIC File Viewer V1.03'
   ClientHeight = 607
   ClientWidth = 853
   Color = 15527148
+  LCLVersion = '4.8.0.0'
+  OnCreate = FormCreate
   OnDropFiles = FormDropFiles
-  LCLVersion = '2.0.12.0'
   object StatusBar1: TStatusBar
     Left = 0
     Height = 18
@@ -26,8 +27,8 @@ object MainForm: TMainForm
   end
   object Memo1: TIpHtmlPanel
     Left = 0
-    Height = 589
-    Top = 0
+    Height = 555
+    Top = 34
     Width = 853
     Align = alClient
     FixedTypeface = 'Courier'
@@ -44,5 +45,39 @@ object MainForm: TMainForm
     PrintSettings.Preview.Width = 1080
     PrintSettings.Preview.Height = 675
     TabOrder = 1
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 34
+    Top = 0
+    Width = 853
+    Align = alTop
+    ClientHeight = 34
+    ClientWidth = 853
+    ParentBackground = False
+    TabOrder = 2
+    object btnSaveText: TButton
+      Left = 4
+      Height = 25
+      Top = 4
+      Width = 96
+      Caption = 'Save As Text'
+      Enabled = False
+      TabOrder = 0
+      OnClick = btnSaveTextClick
+    end
+    object btnSaveHTML: TButton
+      Left = 104
+      Height = 25
+      Top = 4
+      Width = 96
+      Caption = 'Save As HTML'
+      Enabled = False
+      TabOrder = 1
+      OnClick = btnSaveHTMLClick
+    end
+  end
+  object SaveFile: TSaveDialog
+    Left = 228
   end
 end

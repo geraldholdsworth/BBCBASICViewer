@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="List.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="58" Y="37"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="BBCBasicDetokeniser.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="105"/>
+        <CursorPos X="29" Y="105"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../../Lazarus 4.8/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="26" Y="59"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../../Lazarus 4.8/components/lazutils/graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="66" Y="44"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mainunit.pas"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="39" Y="52"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="11">
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="17" Column="38"/>
+      </Position>
+      <Position>
+        <Filename Value="BBCBasicDetokeniser.pas"/>
+        <Caret Line="8" Column="50"/>
+      </Position>
+      <Position>
+        <Filename Value="BBCBasicDetokeniser.pas"/>
+        <Caret Line="8" Column="81"/>
+      </Position>
+      <Position>
+        <Filename Value="BBCBasicDetokeniser.pas"/>
+        <Caret Line="38" Column="35"/>
+      </Position>
+      <Position>
+        <Filename Value="BBCBasicDetokeniser.pas"/>
+        <Caret Line="13" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="BBCBasicDetokeniser.pas"/>
+        <Caret Line="34" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="BBCBasicDetokeniser.pas"/>
+        <Caret Line="14" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="24" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="18" Column="35"/>
+      </Position>
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="20" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="26" Column="32"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
