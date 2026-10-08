@@ -1,0 +1,462 @@
+object StyleForm: TStyleForm
+  Left = 444
+  Height = 541
+  Top = 39
+  Width = 310
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'StyleForm'
+  ClientHeight = 541
+  ClientWidth = 310
+  Position = poMainFormCenter
+  LCLVersion = '4.8.0.0'
+  OnCreate = FormCreate
+  object KeywordStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 0
+    Width = 310
+    Align = alTop
+    Caption = 'Keywords'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 0
+    object KWColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object KWBold: TCheckBox
+      Left = 176
+      Height = 18
+      Top = 4
+      Width = 56
+      Caption = 'Bold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnChange = KWBoldChange
+    end
+    object KWItalic: TCheckBox
+      Left = 232
+      Height = 18
+      Top = 4
+      Width = 55
+      Caption = 'Italic'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 1
+      OnChange = KWBoldChange
+    end
+    object KWColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 2
+      OnChange = KWColourChange
+    end
+  end
+  object QuoteStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 114
+    Width = 310
+    Align = alTop
+    Caption = 'Quotes'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 1
+    object QuColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object QuBold: TCheckBox
+      Left = 176
+      Height = 18
+      Top = 4
+      Width = 56
+      Caption = 'Bold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnChange = KWBoldChange
+    end
+    object QuItalic: TCheckBox
+      Left = 232
+      Height = 18
+      Top = 4
+      Width = 55
+      Caption = 'Italic'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 1
+      OnChange = KWBoldChange
+    end
+    object QuColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 2
+      OnChange = KWColourChange
+    end
+  end
+  object LineNumStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 57
+    Width = 310
+    Align = alTop
+    Caption = 'Line Numbers'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 2
+    object LNColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object LNBold: TCheckBox
+      Left = 176
+      Height = 18
+      Top = 4
+      Width = 56
+      Caption = 'Bold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnChange = KWBoldChange
+    end
+    object LNItalic: TCheckBox
+      Left = 232
+      Height = 18
+      Top = 4
+      Width = 55
+      Caption = 'Italic'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 1
+      OnChange = KWBoldChange
+    end
+    object LNColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 2
+      OnChange = KWColourChange
+    end
+  end
+  object CommentStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 399
+    Width = 310
+    Align = alTop
+    Caption = 'Comments'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 3
+    object CommentColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object CommentBold: TCheckBox
+      Left = 176
+      Height = 18
+      Top = 4
+      Width = 56
+      Caption = 'Bold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnChange = KWBoldChange
+    end
+    object CommentItalic: TCheckBox
+      Left = 232
+      Height = 18
+      Top = 4
+      Width = 55
+      Caption = 'Italic'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 1
+      OnChange = KWBoldChange
+    end
+    object CommentColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 2
+      OnChange = KWColourChange
+    end
+  end
+  object FooterStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 342
+    Width = 310
+    Align = alTop
+    Caption = 'Footer'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 4
+    object FooterColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object FooterBold: TCheckBox
+      Left = 176
+      Height = 18
+      Top = 4
+      Width = 56
+      Caption = 'Bold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnChange = KWBoldChange
+    end
+    object FooterItalic: TCheckBox
+      Left = 232
+      Height = 18
+      Top = 4
+      Width = 55
+      Caption = 'Italic'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 1
+      OnChange = KWBoldChange
+    end
+    object FooterColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 2
+      OnChange = KWColourChange
+    end
+  end
+  object SubHeaderStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 285
+    Width = 310
+    Align = alTop
+    Caption = 'Sub Headers'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 5
+    object SubHeaderColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object SubHeaderBold: TCheckBox
+      Left = 176
+      Height = 18
+      Top = 4
+      Width = 56
+      Caption = 'Bold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnChange = KWBoldChange
+    end
+    object SubHeaderItalic: TCheckBox
+      Left = 232
+      Height = 18
+      Top = 4
+      Width = 55
+      Caption = 'Italic'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 1
+      OnChange = KWBoldChange
+    end
+    object SubHeaderColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 2
+      OnChange = KWColourChange
+    end
+  end
+  object HeaderStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 228
+    Width = 310
+    Align = alTop
+    Caption = 'Headers'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 6
+    object HeaderColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object HeaderBold: TCheckBox
+      Left = 176
+      Height = 18
+      Top = 4
+      Width = 56
+      Caption = 'Bold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnChange = KWBoldChange
+    end
+    object HeaderItalic: TCheckBox
+      Left = 232
+      Height = 18
+      Top = 4
+      Width = 55
+      Caption = 'Italic'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 1
+      OnChange = KWBoldChange
+    end
+    object HeaderColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 2
+      OnChange = KWColourChange
+    end
+  end
+  object HTMLFgStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 171
+    Width = 310
+    Align = alTop
+    Caption = 'HTML Foreground'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 7
+    object HTMLFgColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object HTMLFgBold: TCheckBox
+      Left = 176
+      Height = 18
+      Top = 4
+      Width = 56
+      Caption = 'Bold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnChange = KWBoldChange
+    end
+    object HTMLFgItalic: TCheckBox
+      Left = 232
+      Height = 18
+      Top = 4
+      Width = 55
+      Caption = 'Italic'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 1
+      OnChange = KWBoldChange
+    end
+    object HTMLFgColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 2
+      OnChange = KWColourChange
+    end
+  end
+  object HTMLBgStyle: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 456
+    Width = 310
+    Align = alTop
+    Caption = 'HTML Background'
+    ClientHeight = 30
+    ClientWidth = 300
+    TabOrder = 8
+    object HTMLBgColLabel: TLabel
+      Left = 0
+      Height = 16
+      Top = 4
+      Width = 44
+      Caption = 'Colour:'
+    end
+    object HTMLBgColour: TColorBox
+      Left = 48
+      Height = 19
+      Top = 4
+      Width = 114
+      Style = [cbStandardColors, cbExtendedColors, cbIncludeNone, cbCustomColor, cbPrettyNames]
+      ItemHeight = 18
+      TabOrder = 0
+      OnChange = KWColourChange
+    end
+  end
+  object btnOK: TButton
+    Left = 228
+    Height = 25
+    Top = 512
+    Width = 75
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 9
+  end
+  object btnCancel: TButton
+    Left = 144
+    Height = 25
+    Top = 512
+    Width = 75
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 10
+  end
+end

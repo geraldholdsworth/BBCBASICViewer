@@ -7,16 +7,17 @@
       <Unit>
         <Filename Value="List.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="58" Y="37"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="16"/>
+        <CursorPos X="6" Y="42"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="BBCBasicDetokeniser.pas"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="105"/>
-        <CursorPos X="29" Y="105"/>
+        <TopLine Value="123"/>
+        <CursorPos X="30" Y="170"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit>
@@ -43,12 +44,12 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainUnit"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="15"/>
-        <CursorPos X="39" Y="52"/>
+        <TopLine Value="76"/>
+        <CursorPos X="47" Y="120"/>
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="11">
+    <JumpHistory HistoryIndex="15">
       <Position>
         <Filename Value="List.lpr"/>
         <Caret Line="17" Column="38"/>
@@ -96,6 +97,22 @@
       <Position>
         <Filename Value="List.lpr"/>
         <Caret Line="26" Column="32"/>
+      </Position>
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="70" Column="59" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="52" Column="44" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="BBCBasicDetokeniser.pas"/>
+        <Caret Line="157" Column="31" TopLine="112"/>
+      </Position>
+      <Position>
+        <Filename Value="List.lpr"/>
+        <Caret Line="43" Column="10" TopLine="18"/>
       </Position>
     </JumpHistory>
     <RunParams>
